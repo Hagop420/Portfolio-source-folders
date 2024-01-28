@@ -1,3 +1,8 @@
+/* GOOGLE FONT'S */
+
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +10,14 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
   background-color: #000;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 nav .mainMenu {
@@ -42,14 +47,21 @@ nav .mainMenu .closeMenu,
 }
 
 .fa-github:hover {
-  color: #e5e2e2;
+  background-color: grey;
+  color: #fff;
   cursor: pointer;
 }
 .fa-linkedin:hover {
+  background: #0077b5;
+  color: #fff;
 }
 .fa-phone:hover {
+  background-color: silver;
+  color: #211818;
 }
 .fa-envelope:hover {
+  background-color: #f2a60c;
+  color: #fff;
 }
 
 nav .logo {
@@ -60,6 +72,13 @@ nav .logo {
 
 /* HAMBURGER MENU MEDIA Q. */
 @media (max-width: 800px) {
+  nav {
+    justify-content: space-between;
+  }
+  nav .nav-link:hover::before {
+    max-width: 100%;
+    color: yellow !important;
+  }
   nav .mainMenu {
     height: 100vh;
     position: fixed;
@@ -70,7 +89,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hwb(192 0% 0%);
+    background-color: #000;
     transition: top 1.3s ease;
     display: none;
   }
@@ -86,6 +105,11 @@ nav .logo {
     display: block;
   }
 
+  nav .mainMenu li a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .icons i {
     display: inline-block;
     padding: 12px;
@@ -97,17 +121,23 @@ nav .logo {
 }
 
 nav .nav-link {
-  padding: 6px 0;
-  color: #797878;
+  /* padding: 6px 0; */
+  color: white;
   text-decoration: none;
   position: relative;
+}
+nav .nav-link:hover {
+  font-weight: bold;
 }
 nav .nav-link::before {
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
-  padding: 6px 0;
+  /* padding: 10px; */
+  /* padding-left: 15px; */
+  margin-top: 15px;
+  margin-left: 15px;
   max-width: 0;
   /* text-decoration: underline; */
   text-underline-offset: 8px;
@@ -117,8 +147,10 @@ nav .nav-link::before {
   -moz-transition: max-width 0.5s;
   transition: max-width 0.5s;
 }
+
 nav .nav-link:hover::before {
   max-width: 100%;
+  color: red;
 }
 nav .active {
   color: white;
