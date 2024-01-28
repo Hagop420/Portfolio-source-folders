@@ -242,4 +242,33 @@ nav .active {
   background-color: whitesmoke;
 }
 
+/* accordion animation */
+
+.accordion_link {
+  /* background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%); */
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff0000 50%,
+    #000000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion_link:hover {
+  background-position: 0;
+}
+
+.accordion_link:hover::before {
+  width: 100%;
+}
+/* accordion animation end */
+
 /* PROJECT'S SECTION END */
