@@ -157,3 +157,89 @@ nav .active {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
+
+/* LANDING Page */
+
+.landing_bio {
+  min-height: 92.5vh;
+  background-color: rgb(240, 238, 238);
+  padding: 12%;
+}
+.landing_bio .icons i {
+  background: #000;
+  color: #fff;
+}
+
+.landing_bio button {
+  padding: 10px 25px;
+}
+
+/* LANDING PAGE END */
+
+/* ABOUT ME SECTION */
+
+.ABOUT_ME {
+  min-height: 50vh;
+  background-color: #f2a60c;
+}
+
+.ABOUT_ME button {
+  padding: 10px 25px;
+}
+
+.ABOUT_ME .icons i.fa-envelope:hover {
+  background-color: rgb(63, 127, 190);
+  color: #333;
+}
+
+/* FADING ANIMATION FOR INTRO ABOUT IMAGE/PARAGRAPH/BUTTON PORTFOLIO */
+
+.about_image_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.5s all ease-in-out;
+}
+
+.contact_field_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.7s all ease-in-out;
+}
+
+.about_me_header_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.7s all ease-in-out;
+}
+
+.paragraph_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.5s all ease-in-out;
+}
+.button_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.9s all ease-in-out;
+}
+
+.about_image_animation_appeared,
+.paragraph_animation_appeared,
+.button_animation_appeared,
+.contact_animation_appeared,
+.about_me_header_appeared {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ANIMATION END */
+
+/* ABOUT ME SECTION END */
+
+/* PROJECT'S SECTION */
+
+.PROJECTS {
+  background-color: whitesmoke;
+}
+
+/* PROJECT'S SECTION END */

@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="portfolio_stying.css">
    <link rel="stylesheet" href="output.css">
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
    <title>Document</title>
 </head>
 
@@ -25,7 +26,7 @@
       </div>
       <ul class="mainMenu">
          <li>
-            <a href="#" class="nav-link text-white" data-hover="About">About</a>
+            <a href="#about_me_scroll" class="nav-link text-white" data-hover="About">About</a>
          </li>
          <li>
             <a href="#" class="nav-link text-white" data-hover="Projects">Projects</a>
@@ -71,9 +72,133 @@
 
 
 
+   <!-- Main Page -->
+
+   <div class="flex flex-col justify-center items-center landing_bio">
+      <h1 class="text-black text-5xl m-1">Jack Almadjian</h1>
+      <span class="text-black m-1">Full Stack web developer</span>
+
+
+      <a href="#about_me_scroll">
+         <button class="capitalize bg-blue-500 rounded-full text-white
+         hover:opacity-90">
+            <span class="text-2xl">About Me ❓</span>
+         </button>
+      </a>
+   </div>
+
+
+   </div>
+
+   <!-- Main Page end -->
+
+
+
+   <!-- ABOUT ME SECTION -->
+
+   <div class="flex flex-col items-center p-2 ABOUT_ME" id="about_me_scroll">
+      <div class="about_image_animation m-auto p-5">
+         <img src="./img/portfolio_image.jpeg" alt="Portfolio Image" class="rounded-full">
+      </div>
+      <!-- contact links -->
+      <div class="contact_field_animation">
+         <div class="flex icons landscape_icons m-3">
+            <a href="https://github.com/Hagop420" target="_blank">
+               <i class="fa fa-github hover:cursor-pointer text-2xl m-3"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hagop-almadjian-607342240/" target="_blank">
+               <i class="fa fa-linkedin hover:cursor-pointer text-2xl m-3"></i>
+            </a>
+            <a href="tel:18187311494" target="_blank">
+               <i class="fa fa-phone hover:cursor-pointer text-2xl m-3"></i>
+            </a>
+            <a href="mailto:jack161swe@gmail.com
+         " target="_blank">
+               <i class="fa fa-envelope hover:cursor-pointer text-2xl m-3"></i>
+            </a>
+
+         </div>
+      </div>
+      <div class="about_me_header_animation">
+         <h2 class="text-black text-2xl">About Me</h2>
+      </div>
+      <div class="paragraph_animation">
+         <p class="text-center text-black m-4">
+            Hi! I'm Jack Almadjian, since a young age I have had a love for anything that involves computers, gaming,
+            and technology. Ever since
+            then coding has become a great passion of mine and an enjoyable hobby. I am currently attending
+            LearningFuze
+            Coding Bootcamp to help sharpen my technical skills and collaboration opportunities and is activelly in the
+            job
+            search. I am excited to join a company that will not only challenge me, but help me grow into a better
+            developer.
+         </p>
+      </div>
+
+
+      <div class="button_animation flex items-center">
+         <button class="capitalize bg-blue-500 rounded-full text-white
+            hover:opacity-90">
+            <span class="text-2xl">Projects 📚</span>
+         </button>
+      </div>
+   </div>
+
+   <!-- ABOUT ME SECTION END -->
+
+
+   <!-- PROJECT'S SECTION -->
+
+   <div class="flex flex-col PROJECTS">
+      <h2 class="text-center text-black p-3 text-2xl">Projects</h2>
+
+      <div class="bg-white m-4">
+         <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium text-black">
+               Byte Boulevard
+            </div>
+            <div class="collapse-content">
+               <p><a href="#" class="italic">Byte boulevard</a>
+                  is a comprehensive full-stack e-commerce platform designed to provide users with a seamless experience
+                  in exploring a diverse menu featuring a variety of food and beverage options. Users benefit from the
+                  convenience of accessing detailed information, including descriptions and pricing, for each item.
+                  Additionally, my platform empowers users to effortlessly add their preferred food and beverage
+                  selections to their shopping cart. Once added, users can conveniently review and manage their cart,
+                  containing a comprehensive list of their purchases. However, for enhanced customization and editing
+                  capabilities within the cart, users are required to register for an account.
+               </p>
+            </div>
+         </div>
+         <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl text-black font-medium">
+               Spaceaholics
+            </div>
+            <div class="collapse-content">
+               <p>hello</p>
+            </div>
+         </div>
+         <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl text-black font-medium">
+               Code Journal
+            </div>
+            <div class="collapse-content">
+               <p>hello</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- PROJECT'S SECTION END -->
+
+
+
    <script src="https://kit.fontawesome.com/813177f008.js" crossorigin="anonymous"></script>
 
    <script src="mainMenu.js"></script>
+   <script src="animations.js"></script>
 
 </body>
 
