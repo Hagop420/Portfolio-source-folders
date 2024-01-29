@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+  /* CARD LATER */
+  /* .card-invisible {
+    display: none !important;
+  } */
+}
+
 @media (min-width: 768px) {
   /* FOOTER */
   footer {
@@ -5,7 +12,7 @@
   }
   .contact_links {
     display: grid;
-    gap: 1.5rem;
+    gap: 0.7rem;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
@@ -30,4 +37,38 @@
   }
 
   /* FOOTER END */
+
+  /* TOOLS GRID SECTION */
+  .TOOLS {
+    min-height: 40vh;
+  }
+
+  .tools_grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  /* TOOLS GRID SECTION END */
+
+  /* TECHNICAL SKILL'S SECTION */
+
+  .skills_responsive_grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* TECHNICAL SKILLS SECTION END */
+
+  /* PROJECT'S SECTION/ACCORDION */
+
+  /* PROJECT'S SECTION ACCORDION END */
+
+  .ABOUT_ME .icons i {
+    display: inline-block;
+    padding: 12px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  /* ABOUT ME END */
 }
