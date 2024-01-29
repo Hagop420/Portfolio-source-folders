@@ -314,7 +314,6 @@ nav .active {
 
 .TOOLS {
   background-color: rgb(209, 191, 191);
-
   /* Additional properties for background size and repeat */
   background-size: cover; /* or contain, depending on your needs */
   background-repeat: no-repeat;
@@ -327,6 +326,7 @@ nav .active {
 }
 
 .TOOLS img {
+  padding: 15px;
   height: 100px;
 }
 
