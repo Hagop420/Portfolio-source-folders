@@ -242,6 +242,20 @@ nav .active {
   background-color: whitesmoke;
 }
 
+/* project's animation */
+
+.projects_animation {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s 0.9s all ease-in-out;
+}
+.projects_animation_appeared {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* project's animation end */
+
 /* accordion animation */
 
 .accordion_link {
@@ -272,3 +286,48 @@ nav .active {
 /* accordion animation end */
 
 /* PROJECT'S SECTION END */
+
+/* SKILL'S SECTION */
+
+.SKILLS {
+  min-height: 10vh;
+  background-color: #fff;
+}
+/* skills animation */
+
+.skills_animation_fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.skills_animation_appeared {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* skills animation end */
+
+/* SKILL'S SECTION END */
+
+/* TOOL'S SECTION */
+
+.TOOLS {
+  background-color: rgb(209, 191, 191);
+
+  /* Additional properties for background size and repeat */
+  background-size: cover; /* or contain, depending on your needs */
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  /* background-image: url('./svg/scribbles.svg'); */
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat;
+  color: var(--white);
+}
+
+.TOOLS img {
+  height: 100px;
+}
+
+/* TOOL'S SECTION END */

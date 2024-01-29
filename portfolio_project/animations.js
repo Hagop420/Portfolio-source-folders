@@ -64,3 +64,31 @@ function about_header_animation() {
 }
 
 addEventListener('scroll', about_header_animation)
+
+function skills_section() {
+  const skills_section = document.querySelector('.skills_animation_fade')
+  const skills_animation_function_pos = skills_section.getBoundingClientRect()
+    .top
+
+  const screenSkillsPosition = window.innerHeight
+
+  if (skills_animation_function_pos < screenSkillsPosition) {
+    skills_section.classList.add('skills_animation_appeared')
+  }
+}
+
+addEventListener('scroll', skills_section)
+
+function accordion_section() {
+  const accorrdion = document.querySelector('.projects_animation')
+  const accordion_animation_function_pos = accorrdion.getBoundingClientRect()
+    .top
+
+  const accordionSkillsPosition = window.innerHeight
+
+  if (accordion_animation_function_pos < accordionSkillsPosition) {
+    accorrdion.classList.add('projects_animation_appeared')
+  }
+}
+
+addEventListener('scroll', accordion_section)
