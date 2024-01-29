@@ -88,4 +88,32 @@
   }
 
   /* ABOUT ME END */
+
+  /* Landing page section */
+
+  .landing_bio {
+    align-items: flex-start;
+  }
+
+  .landing_bio h1 {
+    font-size: 3.4rem;
+  }
+
+  .landing_bio span {
+    font-size: 1.4rem;
+    margin: 5.5px;
+  }
+
+  /* SOCIAL LINKS IN LANDING PG */
+
+  .landing_bio .socials {
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  /* SOCIALS IN LANDING PG END */
+
+  /* Landing page section end */
 }
