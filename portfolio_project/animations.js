@@ -92,3 +92,17 @@ function accordion_section() {
 }
 
 addEventListener('scroll', accordion_section)
+
+function tools_section() {
+  const tools_animation = document.querySelector('.tools_animation_fade')
+  const tools_animation_function_pos = tools_animation.getBoundingClientRect()
+    .top
+
+  const toolsSkillsPosition = window.innerHeight
+
+  if (tools_animation_function_pos < toolsSkillsPosition) {
+    tools_animation.classList.add('tools_animation_appeared')
+  }
+}
+
+addEventListener('scroll', tools_section)

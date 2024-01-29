@@ -317,7 +317,7 @@ nav .active {
   /* Additional properties for background size and repeat */
   background-size: cover; /* or contain, depending on your needs */
   background-repeat: no-repeat;
-  min-height: 50vh;
+  min-height: 63vh;
   /* background-image: url('./svg/scribbles.svg'); */
   background-position: center center;
   background-size: contain;
@@ -330,4 +330,58 @@ nav .active {
   height: 100px;
 }
 
+/* tool's animation */
+
+.tools_animation_fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.tools_animation_appeared {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* tool's animation end */
+
 /* TOOL'S SECTION END */
+
+/* FOOTER */
+
+footer {
+  min-height: 60vh;
+}
+
+.contact_links {
+  /* display: grid; */
+  /* gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center; */
+}
+.contact_links a {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: max-content;
+  gap: 0.5rem;
+  margin: 0rem 1rem;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+footer a.animated-underline::before,
+footer a.animated-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  height: 3px;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  display: inline-block;
+  transition: width 0.3s ease 0s;
+  border-radius: var(--border-radius);
+}
