@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+  /* FOOTER */
+  footer {
+    min-height: 52vh;
+  }
+  .contact_links {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .hBJahJ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+
+  .footer_icons i {
+    display: inline-block;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  /* FOOTER END */
+}

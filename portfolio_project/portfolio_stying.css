@@ -183,7 +183,7 @@ nav .active {
 
 .ABOUT_ME {
   min-height: 50vh;
-  background-color: #f2a60c;
+  background-color: #e2ddd1;
 }
 
 .ABOUT_ME button {
@@ -362,14 +362,24 @@ footer {
   justify-content: center;
 }
 
-/* LATER FOR DESKTOP STYLES THIS CONTACT LINK GRID */
+/* FOOTER TOP TITLE DIVIDER */
 
-.contact_links {
-  /* display: grid; */
-  /* gap: 1.5rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center; */
+.hBJahJ {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
+
+.footer_icons {
+  margin: 10px;
+}
+
+/* DIVIDER END */
+
 .contact_links a {
   display: grid;
   grid-template-columns: auto auto;
