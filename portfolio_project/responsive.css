@@ -92,11 +92,22 @@
   /* Landing page section */
 
   .landing_bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
+    height: 100%;
+    position: relative;
   }
 
   .landing_bio h1 {
     font-size: 3.4rem;
+  }
+
+  .landing_bio .socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
   }
 
   .landing_bio span {
@@ -104,14 +115,17 @@
     margin: 5.5px;
   }
 
-  /* SOCIAL LINKS IN LANDING PG */
-
-  .landing_bio .socials {
-    /* display: flex; */
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 100%;
+  .tags_self_closing img {
+    height: 32px;
+    margin: 2px;
   }
+
+  .landing_bio .tags_self_closing {
+    position: absolute;
+    display: inline-flex;
+  }
+
+  /* SOCIAL LINKS IN LANDING PG */
 
   /* SOCIALS IN LANDING PG END */
 
