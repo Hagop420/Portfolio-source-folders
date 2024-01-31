@@ -189,6 +189,8 @@ nav .active {
   padding: 5%;
 }
 
+
+
 .landing_bio h1 {
   font-size: 2.5rem;
 }
@@ -199,6 +201,10 @@ nav .active {
 }
 
 .landing_bio .tags_self_closing {
+  display: none;
+}
+
+.landing_bio .socials{
   display: none;
 }
 

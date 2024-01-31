@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
   /* CARD LATER */
   /* .card-invisible {
-    display: none !important;
-  } */
+     display: none !important;
+   } */
 }
 
 @media (min-width: 768px) {
@@ -99,7 +99,7 @@
   }
 
   .column-half {
-    width: 50%;
+    width: 100%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@
   .desktop_centered_link {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .landing_bio span {
