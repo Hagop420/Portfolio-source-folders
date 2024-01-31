@@ -90,24 +90,54 @@
   /* ABOUT ME END */
 
   /* Landing page section */
-
   .landing_bio {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    justify-content: space-between;
   }
 
-  .landing_bio h1 {
-    font-size: 3.4rem;
+  /* SHAWNS STUFF */
+  .landing_bio .desktop_title {
+    text-align: left;
+  }
+
+  .column-half {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .mobile_hidden {
+    display: inline-flex;
+  }
+  .landing_bio .desktop_link_hidden {
+    display: none;
+  }
+  /* SHAWNS STUFF END */
+
+  .mobile_socials {
+    display: none;
   }
 
   .landing_bio .socials {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+
+  .landing_bio .socials i {
+    font-size: 50px;
+  }
+
+  .desktop_centered_link {
+    display: flex;
     flex-direction: column;
-    position: absolute;
+    justify-content: center;
   }
 
   .landing_bio span {

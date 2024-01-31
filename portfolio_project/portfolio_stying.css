@@ -164,15 +164,26 @@ nav .active {
 }
 
 /* LANDING Page */
-.landing_bio {
+/* .landing_bio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 12%;
+  flex-wrap: wrap;
   min-height: 92vh;
   background-color: whitesmoke;
+} */
+.landing_bio {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(220, 220, 245);
+  min-height: 92vh;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
 }
+
 .landing_bio h1 {
   font-size: 2.5rem;
 }
@@ -186,9 +197,33 @@ nav .active {
   display: none;
 }
 
-.landing_bio button {
-  padding: 5px 20px;
+.mobile_hidden {
+  display: none;
 }
+.socials {
+  display: none;
+}
+
+.mobile_socials {
+  display: flex;
+}
+.mobile_socials i {
+  display: inline-block;
+  padding: 12px;
+  background-color: gray;
+  color: #000;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.column-half {
+  margin: 15px;
+  text-align: center;
+}
+
+/* spacing inside landing bio */
+
+/* end spacing for landing bio */
 
 /* LANDING PAGE END */
 
