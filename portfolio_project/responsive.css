@@ -93,9 +93,7 @@
   .landing_bio {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    /* flex-direction: column-reverse; */
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   /* SHAWNS STUFF */
