@@ -91,9 +91,6 @@
 
   /* Landing page section */
   .landing_bio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
   }
 
   /* SHAWNS STUFF */
