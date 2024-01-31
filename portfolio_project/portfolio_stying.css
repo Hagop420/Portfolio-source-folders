@@ -69,6 +69,10 @@ nav .mainMenu .closeMenu,
   color: #fff;
 }
 
+.mobile_socials i.fa-github:hover{
+  background-color: #000;
+}
+
 nav .logo {
   cursor: pointer;
   font-size: 25px;
@@ -263,6 +267,8 @@ nav .active {
   transform: translateY(20px);
   transition: 0.5s 0.7s all ease-in-out;
 }
+
+.about_me_github_icon:hover{color}
 
 .paragraph_animation {
   opacity: 0;
