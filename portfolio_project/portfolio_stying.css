@@ -177,6 +177,7 @@ nav .active {
 .landing_bio {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   background-color: rgb(220, 220, 245);
   min-height: 92vh;
   align-items: center;
@@ -206,6 +207,7 @@ nav .active {
 
 .mobile_socials {
   display: flex;
+  margin: 10px;
 }
 .mobile_socials i {
   display: inline-block;
@@ -217,7 +219,6 @@ nav .active {
 }
 
 .column-half {
-  margin: 15px;
   text-align: center;
 }
 
