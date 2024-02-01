@@ -211,7 +211,8 @@ nav .active {
 .mobile_hidden {
   display: none;
 }
-.socials {
+.socials,
+.desktop_centered_link {
   display: none;
 }
 
