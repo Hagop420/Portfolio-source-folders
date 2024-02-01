@@ -100,6 +100,7 @@
   /* SHAWNS STUFF */
   .landing_bio .desktop_title {
     text-align: left;
+    font-size: 3.5rem;
   }
 
   .column-half {
@@ -134,7 +135,41 @@
 
   .landing_bio .socials i {
     font-size: 50px;
+    margin: 3px;
+    background: transparent;
   }
+
+  /* socials path */
+
+  .landing_bio .socials i.fa.fa-github,
+  .landing_bio .socials i.fa.fa-linkedin,
+  .landing_bio .socials i.fa.fa-envelope {
+    transition: 0.5s all ease-in-out;
+  }
+
+  .landing_bio .socials i.fa.fa-github {
+    color: #333;
+  }
+  .landing_bio .socials i.fa.fa-linkedin {
+    color: #0077b5;
+  }
+  .landing_bio .socials i.fa.fa-envelope {
+    color: #fe8c00; /* fallback for old browsers */
+    color: -webkit-linear-gradient(
+      to right,
+      #fe8c00,
+      #f83600
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #fe8c00, #f83600);
+  }
+
+  .landing_bio .socials i.fa.fa-github:hover,
+  .landing_bio .socials i.fa.fa-linkedin:hover,
+  .landing_bio .socials i.fa.fa-envelope:hover {
+    transform: scale(1.1);
+  }
+
+  /* socials path end */
 
   /* .landing_bio .socials .column-full {
     display: flex;
@@ -145,9 +180,7 @@
   } */
 
   .desktop_centered_link {
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: flex-start;
+    display: inline-flex;
   }
 
   .landing_bio span {
