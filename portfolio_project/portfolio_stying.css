@@ -260,13 +260,13 @@ nav .active {
 .about_image_animation {
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.5s 0.5s all ease-in-out;
+  transition: 0.5s  all ease-in-out;
 }
 
 .contact_field_animation {
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.5s 0.7s all ease-in-out;
+  transition: 0.5s 0.2s all ease-in-out;
 }
 
 .about_me_header_animation {
