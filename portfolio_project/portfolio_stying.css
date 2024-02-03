@@ -204,6 +204,13 @@ nav .active {
   display: none;
 }
 
+.about_responsive_img_btns{
+  display: flex;
+  justify-content:center;
+  margin:auto;
+  text-align:center
+}
+
 .landing_bio .socials{
   display: none;
 }
