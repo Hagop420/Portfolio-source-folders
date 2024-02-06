@@ -40,7 +40,7 @@ nav .openMenu {
 }
 
 nav .openMenu {
-  font-size:1.3rem;
+  font-size: 1.3rem;
   margin: 20px;
   display: none;
   cursor: pointer;
@@ -69,7 +69,7 @@ nav .mainMenu .closeMenu,
   color: #fff;
 }
 
-.mobile_socials i.fa-github:hover{
+.mobile_socials i.fa-github:hover {
   background-color: #000;
 }
 
@@ -189,8 +189,6 @@ nav .active {
   padding: 5%;
 }
 
-
-
 .landing_bio h1 {
   font-size: 2.5rem;
 }
@@ -204,14 +202,14 @@ nav .active {
   display: none;
 }
 
-.about_responsive_img_btns{
+.about_responsive_img_btns {
   display: flex;
-  justify-content:center;
-  margin:auto;
-  text-align:center
+  justify-content: center;
+  margin: auto;
+  text-align: center;
 }
 
-.landing_bio .socials{
+.landing_bio .socials {
   display: none;
 }
 
@@ -267,7 +265,7 @@ nav .active {
 .about_image_animation {
   opacity: 0;
   transform: translateY(20px);
-  transition: 0.5s  all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .contact_field_animation {
@@ -281,8 +279,6 @@ nav .active {
   transform: translateY(20px);
   transition: 0.5s 0.7s all ease-in-out;
 }
-
-.about_me_github_icon:hover{color}
 
 .paragraph_animation {
   opacity: 0;
