@@ -418,6 +418,8 @@ nav .active {
 /* FOOTER */
 
 footer {
+  background-image: url('./svg/scribbles.svg');
+  background-position:center;
   min-height: 60vh;
 }
 .contact_links {
